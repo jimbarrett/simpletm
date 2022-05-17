@@ -1,0 +1,89 @@
+.navbar {
+    border-radius: 0 !important;
+    margin-bottom:0;
+}
+
+#loginPanel {
+    margin-top:4em;
+}
+
+/* tasks */
+.task-well {
+    position:relative;
+}
+.task-well .overdue {
+    color:red;
+}
+/* action buttons */
+.task-well #action-buttons {
+    position:absolute;
+    top:.5em;
+    right:.5em;
+}
+.task-well #action-buttons div {
+    display:inline-block;
+}
+.task-well .task-dialog .confirm .btn-xs {
+    font-size:10px;
+}
+.task-well .task-dialog .confirm {
+    display:none;
+}
+.task-well .task-dialog.open .confirm {
+    display: inline-block;
+}
+.task-well .task-dialog .open-dialog {
+    font-size:16px;
+    position:relative;
+    top:4px;
+    cursor:pointer;
+}
+.task-well .task-dialog.open .open-dialog {
+    display:none;
+}
+
+.task-well .display-name {
+    padding:.2em;
+    margin-top:.5em;
+    border:1px dashed #ccc;
+    cursor:pointer;
+}
+.task-well .display-name:focus {
+    background:#fff;
+    border:1px solid #ccc;
+    outline:0 !important;
+}
+.task-well .edit-due .form-control {
+    width:auto;
+    display:inline-block;
+}
+.task-well .edit-due .submit-due-date {
+    font-size:1.4em;
+    position:relative;
+    top:.3em;
+    cursor:pointer;
+    color:#449d44;
+}
+.task-well .task-due-date .edit-due {
+    display:none;
+}
+.task-well .task-due-date.open .edit-due {
+    display:initial;
+}
+.task-well .task-due-date.open .display-due {
+    display:none;
+}
+
+#addTaskForm {
+    display:none;
+}
+
+.sub-bar {
+    padding-top:1em;
+    padding-bottom:1em;
+}
+
+#taskFilterSelect {
+    display:inline-block;
+    width:auto;
+}

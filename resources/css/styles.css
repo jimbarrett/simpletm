@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css?family=Inconsolata');
+
+body {
+    background: #24252D;
+    color:#dedede;
+    font-family: 'Inconsolata', monospace;
+}
+
+.navbar {
+    margin-bottom:0;
+}
+.navbar.navbar-inverse {
+    background: rgba(0,0,0,.1);
+    border-color:#666;
+    border:0px;
+    border-bottom:1px dashed #666;
+}
+
+.form-control {
+    height:auto;
+    padding:3px;
+}
+
+.task-well {
+    background:rgba(255,255,255,0.03);
+    border:1px dashed #666;
+}
